@@ -1,0 +1,6 @@
+{
+  "command": "generate_access_token",
+  "access": [
+    "item"
+  ]
+}

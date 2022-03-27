@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb69fccf-7756-4879-80f6-5bd4f0d74500" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g0lXIqJuQcIdMnCTEKqLOqsCsv" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\exchange.cash\backend" />
+      <recent name="C:\wamp64\www\exchange.cash\backend\js" />
+      <recent name="C:\wamp64\www\exchange.cash\backend\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb69fccf-7756-4879-80f6-5bd4f0d74500" name="Default Changelist" comment="" />
+      <created>1597259428167</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597259428167</updated>
+      <workItem from="1597259429477" duration="24308000" />
+      <workItem from="1597434113693" duration="20947000" />
+      <workItem from="1597503385419" duration="8868000" />
+      <workItem from="1597740468951" duration="7112000" />
+      <workItem from="1597751280621" duration="388000" />
+      <workItem from="1597770117689" duration="4485000" />
+      <workItem from="1597777330233" duration="8813000" />
+      <workItem from="1597791040959" duration="4599000" />
+      <workItem from="1597822423143" duration="470000" />
+      <workItem from="1597855430326" duration="3573000" />
+      <workItem from="1597872691869" duration="591000" />
+      <workItem from="1597899890728" duration="11985000" />
+      <workItem from="1597916752515" duration="1680000" />
+      <workItem from="1597951774499" duration="4714000" />
+      <workItem from="1597988246750" duration="1430000" />
+      <workItem from="1598002399378" duration="846000" />
+      <workItem from="1598082459441" duration="783000" />
+      <workItem from="1598118401214" duration="8098000" />
+      <workItem from="1598154075608" duration="3010000" />
+      <workItem from="1598542979817" duration="361000" />
+      <workItem from="1598871877964" duration="5886000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/guide.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/main.js</url>
+          <line>37</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

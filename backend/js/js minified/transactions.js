@@ -1,0 +1,1 @@
+function validurl(t){try{new URL(t);return!0}catch(t){return!1}}document.addEventListener("DOMContentLoaded",function(){$(".bottom-menu-item").on("click",function(){$(".bottom-menu-item").removeClass("bottom-menu-item-active"),$(this).toggleClass("bottom-menu-item-active")})});

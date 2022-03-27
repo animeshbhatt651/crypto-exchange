@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.488" height="15" viewBox="0 0 15.488 15">
+    <defs>
+        <style>
+            .cls-1{fill:#a7a7b9}.cls-2{fill:#052e67}
+        </style>
+    </defs>
+    <g id="_019-ethereum" data-name="019-ethereum" transform="translate(.488)">
+        <circle id="Ellipse_80" cx="7.5" cy="7.5" r="7.5" class="cls-1" data-name="Ellipse 80" transform="translate(-.488)"/>
+        <path id="Path_1434" d="M57.09 25.208a7.5 7.5 0 0 1-9.351 11.124 7.5 7.5 0 1 0 9.351-11.124z" class="cls-1" data-name="Path 1434" transform="translate(-46.34 -24.469)"/>
+        <circle id="Ellipse_81" cx="6.531" cy="6.531" r="6.531" class="cls-1" data-name="Ellipse 81" transform="translate(.969 .969)"/>
+        <path id="Path_1435" d="M119.949 84.641a7.5 7.5 0 0 1-8.409 9.994 6.531 6.531 0 1 0 8.409-9.994z" class="cls-1" data-name="Path 1435" transform="translate(-108.272 -82.161)"/>
+        <g id="Group_396" data-name="Group 396" transform="translate(5.293 3.54)">
+            <path id="Path_1436" d="M182.773 120.865l-2.106 3.4a.088.088 0 0 0 .028.121l2.149 1.357a.088.088 0 0 0 .095 0l2.09-1.356a.088.088 0 0 0 .027-.12l-2.133-3.4a.088.088 0 0 0-.15-.002z" class="cls-2" data-name="Path 1436" transform="translate(-180.653 -120.824)"/>
+            <path id="Path_1437" d="M189.484 290.236l1.846-1.148a.088.088 0 0 1 .12.123l-1.86 2.826a.088.088 0 0 1-.145 0l-2.013-2.809a.088.088 0 0 1 .117-.126l1.842 1.132a.088.088 0 0 0 .093.002z" class="cls-2" data-name="Path 1437" transform="translate(-187.217 -284.144)"/>
+        </g>
+    </g>
+</svg>

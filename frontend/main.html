@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Crypto Swap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="css/top-menu.css?v=1597907900"/>
+    <link rel="stylesheet" href="css/style-main.css?v=1597907900"/>
+
+</head>
+<body><input id="currency-send" type="hidden" value="BTC"/>
+<input id="currency-receive" type="hidden" name="currency-receive" value="ETH"/>
+<div class="top-menu">
+    <div class="top-menu-tools">
+        <p class="top-menu-tools-title">Crypto <span>Swap</span></p>
+        <div class="top-menu-tools-ref">
+            <a href="main.php" class="top-menu-tools-ref-item top-menu-tools-ref-item-active">Exchange</a>
+            <a href="transactions.php" class="top-menu-tools-ref-item ">Transactions</a>
+            <a href="info-setting.php" class="top-menu-tools-ref-item ">Setting</a>
+            <a href="eli5.php" class="top-menu-tools-ref-item">Eli5</a>
+        </div>
+        <svg class="top-menu-tools-settingbutton" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+             viewBox="0 0 15 15">
+            <path id="_106-settings" fill="#919191"
+                  d="M7.533 15h-.065a1.487 1.487 0 0 1-1.483-1.34v-.017a1.039 1.039 0 0 0-.639-.859l-.046-.018a1.044 1.044 0 0 0-1.066.147 1.483 1.483 0 0 1-2.007-.113l-.039-.04a1.494 1.494 0 0 1-.1-1.967 1.056 1.056 0 0 0 .151-1.068l-.027-.064a1.036 1.036 0 0 0-.858-.636h-.017A1.487 1.487 0 0 1 0 7.532v-.064a1.487 1.487 0 0 1 1.34-1.483h.017a1.04 1.04 0 0 0 .86-.639l.018-.046a1.042 1.042 0 0 0-.147-1.064l-.006-.008a1.487 1.487 0 0 1 .1-1.994l.047-.047a1.487 1.487 0 0 1 1.994-.1 1.047 1.047 0 0 0 1.077.148l.045-.019a1.042 1.042 0 0 0 .641-.86v-.017A1.487 1.487 0 0 1 7.468 0h.065a1.487 1.487 0 0 1 1.483 1.34 1.07 1.07 0 0 0 .656.882l.031.013a1.087 1.087 0 0 0 1.088-.135l.026-.02a1.493 1.493 0 0 1 1.969.123l.013.013a1.493 1.493 0 0 1 .123 1.969l-.02.026a1.087 1.087 0 0 0-.137 1.089l.008.019a1.084 1.084 0 0 0 .887.668A1.487 1.487 0 0 1 15 7.468v.065a1.487 1.487 0 0 1-1.34 1.483h-.017a1.036 1.036 0 0 0-.858.636l-.024.058a1.04 1.04 0 0 0 .155 1.061 1.487 1.487 0 0 1-.1 1.994l-.047.047a1.487 1.487 0 0 1-1.995.1l-.007-.005a1.043 1.043 0 0 0-1.067-.141l-.046.019a1.04 1.04 0 0 0-.639.859v.017A1.487 1.487 0 0 1 7.533 15zm-2.648-3.49a2.235 2.235 0 0 1 .868.176l.037.015a2.21 2.21 0 0 1 1.359 1.824v.017a.318.318 0 0 0 .317.287h.065a.318.318 0 0 0 .317-.287v-.017A2.21 2.21 0 0 1 9.211 11.7l.037-.015a2.213 2.213 0 0 1 2.259.315l.007.006a.318.318 0 0 0 .427-.022l.047-.047a.318.318 0 0 0 .023-.426 2.209 2.209 0 0 1-.326-2.258l.019-.046a2.207 2.207 0 0 1 1.824-1.358h.017a.318.318 0 0 0 .286-.317v-.064a.318.318 0 0 0-.287-.317 2.254 2.254 0 0 1-1.85-1.383l-.007-.015a2.26 2.26 0 0 1 .292-2.262L12 3.464a.32.32 0 0 0-.026-.421l-.013-.013a.319.319 0 0 0-.425-.03l-.026.02a2.261 2.261 0 0 1-2.262.291L9.223 3.3A2.241 2.241 0 0 1 7.85 1.459a.318.318 0 0 0-.317-.287h-.065a.318.318 0 0 0-.317.287v.017A2.212 2.212 0 0 1 5.788 3.3l-.035.015a2.216 2.216 0 0 1-2.263-.321.318.318 0 0 0-.427.022l-.047.047a.318.318 0 0 0-.022.427L3 3.494a2.212 2.212 0 0 1 .318 2.258l-.018.036a2.21 2.21 0 0 1-1.824 1.361h-.017a.318.318 0 0 0-.286.317v.065a.318.318 0 0 0 .287.317h.017A2.207 2.207 0 0 1 3.3 9.209l.021.05a2.227 2.227 0 0 1-.311 2.254.32.32 0 0 0 .021.421l.039.04a.317.317 0 0 0 .424.026 2.2 2.2 0 0 1 1.391-.494zm3.641-.769a.586.586 0 0 0-.354-1.117 2.224 2.224 0 1 1 1.465-1.5.586.586 0 0 0 1.125.329 3.4 3.4 0 1 0-2.236 2.285zm0 0"
+                  data-name="106-settings"/>
+        </svg>
+    </div>
+    <div class="top-menu-exchange">
+        <div class="top-menu-exchange-box">
+            <div id="box-select" class="top-menu-exchange-box-crypto-box">
+                <div id="select-send" class="top-menu-exchange-box-cryptoselect send">
+                    <div>
+                        <img id="selector-send-currency-image" src="img/btc.svg"/>
+                        <p id="selector-send-currency-name">Bitcoin</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.2 6.417">
+                        <path id="_131-down-chevron" fill="#555"
+                              d="M5.106 6.419a1.189 1.189 0 0 1-.835-.34L.359 2.237a1.2 1.2 0 0 1 0-1.706L.545.346a1.2 1.2 0 0 1 1.69.013L5.11 3.281 7.969.385a1.2 1.2 0 0 1 1.7-.008l.181.182a1.2 1.2 0 0 1-.008 1.7L8.567 3.518a.4.4 0 0 1-.56-.567L9.283 1.69a.4.4 0 0 0 0-.567L9.1.941a.4.4 0 0 0-.567 0l-3.14 3.188a.4.4 0 0 1-.284.119.4.4 0 0 1-.284-.119L1.667.918a.4.4 0 0 0-.563 0L.916 1.1a.4.4 0 0 0 0 .569L4.828 5.51a.4.4 0 0 0 .557 0l1.189-1.165a.4.4 0 0 1 .557.57L5.943 6.077a1.189 1.189 0 0 1-.835.342zm0 0"
+                              data-name="131-down-chevron" transform="translate(0 -.002)"/>
+                    </svg>
+
+                    <div id="box-send" class="section-top-exchange-row-cryptos-list">
+                        <input id="crypto-select-search-send" class="section-top-exchange-search"
+                               placeholder="Search..."/>
+                        <div id="item-send-BTC" class="section-top-exchange-row-cryptos-list-item send active">
+                            <div>
+                                <img src="img/btc.svg" alt="BTC"/>
+                                <p class="section-top-exchange-row-cryptos-list-item-name">Bitcoin</p>
+                            </div>
+                            <p class="section-top-exchange-row-cryptos-list-item-sign">BTC</p>
+                        </div><div id="item-send-BNB" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/bnb.svg" alt="BNB"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Binance Coin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">BNB</p>
+                    </div><div id="item-send-DGB" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/dgb.svg" alt="DGB"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Digibyte</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">DGB</p>
+                    </div><div id="item-send-DOGE" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/doge.svg" alt="DOGE"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Dogecoin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">DOGE</p>
+                    </div><div id="item-send-EOS" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/eos.svg" alt="EOS"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">EOS</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">EOS</p>
+                    </div><div id="item-send-ETH" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/eth.svg" alt="ETH"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Ethereum</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">ETH</p>
+                    </div><div id="item-send-LTC" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/ltc.svg" alt="LTC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Litecoin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">LTC</p>
+                    </div><div id="item-send-NEO" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/neo.svg" alt="NEO"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">NEO</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">NEO</p>
+                    </div><div id="item-send-TRX" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/trx.svg" alt="TRX"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">TRON</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">TRX</p>
+                    </div><div id="item-send-USDC" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/usdc.svg" alt="USDC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">USD Coin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">USDC</p>
+                    </div><div id="item-send-XLM" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/xlm.svg" alt="XLM"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Stellar</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">XLM</p>
+                    </div><div id="item-send-ZEC" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/zec.svg" alt="ZEC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">ZCash</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">ZEC</p>
+                    </div><div id="item-send-XRP" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/xrp.svg" alt="XRP"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Ripple</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">XRP</p>
+                    </div><div id="item-send-PMC" class="section-top-exchange-row-cryptos-list-item send ">
+                        <div>
+                            <img src="img/pmc.svg" alt="PMC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">PMVoucher</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">PMC</p>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="top-menu-exchange-box-cryptoselect-swap">
+                    <div class="top-menu-exchange-box-cryptoselect-swap-child">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17.011" height="17.044"
+                             viewBox="0 0 17.011 17.044">
+                            <path id="_125-refresh" fill="#49de61"
+                                  d="M8.989 17.044h-.014a.666.666 0 0 1 0-1.332h.012a7.191 7.191 0 0 0 5.581-11.727 1.4 1.4 0 0 1 .092-1.875l.78-.777h-2.5a.325.325 0 0 0-.325.325V4.17a.666.666 0 0 1 .841 1.023l-.256.267-.005.005a1.117 1.117 0 0 1-1.906-.789V1.658A1.656 1.656 0 0 1 12.942 0h3.018a1.117 1.117 0 0 1 .789 1.906L15.6 3.053a.068.068 0 0 0 0 .091 8.522 8.522 0 0 1-6.611 13.9zm-2.749-.485a1.645 1.645 0 0 0 .485-1.172v-3.018a1.117 1.117 0 0 0-1.906-.789l-.005.005-.261.267a.666.666 0 0 0 .841 1.023v2.513a.325.325 0 0 1-.325.325h-2.5l.78-.777a1.4 1.4 0 0 0 .093-1.875 7.191 7.191 0 0 1 5.58-11.729h.012A.666.666 0 0 0 9.036 0h-.014a8.522 8.522 0 0 0-6.611 13.9.068.068 0 0 1 0 .091L1.26 15.137a1.117 1.117 0 0 0 .79 1.906h3.018a1.646 1.646 0 0 0 1.171-.485zm0 0"
+                                  data-name="125-refresh" transform="translate(-.5)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div id="select-receive" class="top-menu-exchange-box-cryptoselect receive">
+                    <div>
+                        <img id="selector-receive-currency-image" src="img/eth.svg"/>
+                        <p id="selector-receive-currency-name">Ethereum</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.2 6.417">
+                        <path id="_131-down-chevron" fill="#555"
+                              d="M5.106 6.419a1.189 1.189 0 0 1-.835-.34L.359 2.237a1.2 1.2 0 0 1 0-1.706L.545.346a1.2 1.2 0 0 1 1.69.013L5.11 3.281 7.969.385a1.2 1.2 0 0 1 1.7-.008l.181.182a1.2 1.2 0 0 1-.008 1.7L8.567 3.518a.4.4 0 0 1-.56-.567L9.283 1.69a.4.4 0 0 0 0-.567L9.1.941a.4.4 0 0 0-.567 0l-3.14 3.188a.4.4 0 0 1-.284.119.4.4 0 0 1-.284-.119L1.667.918a.4.4 0 0 0-.563 0L.916 1.1a.4.4 0 0 0 0 .569L4.828 5.51a.4.4 0 0 0 .557 0l1.189-1.165a.4.4 0 0 1 .557.57L5.943 6.077a1.189 1.189 0 0 1-.835.342zm0 0"
+                              data-name="131-down-chevron" transform="translate(0 -.002)"/>
+                    </svg>
+
+                    <div id="box-receive" class="section-top-exchange-row-cryptos-list">
+                        <input id="crypto-select-search-receive" class="section-top-exchange-search"
+                               placeholder="Search..."/>
+                        <div id="item-receive-BTC" class="section-top-exchange-row-cryptos-list-item receive active">
+                            <div>
+                                <img src="img/btc.svg" alt="BTC"/>
+                                <p class="section-top-exchange-row-cryptos-list-item-name">Bitcoin</p>
+                            </div>
+                            <p class="section-top-exchange-row-cryptos-list-item-sign">BTC</p>
+                        </div><div id="item-receive-BNB" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/bnb.svg" alt="BNB"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Binance Coin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">BNB</p>
+                    </div><div id="item-receive-DGB" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/dgb.svg" alt="DGB"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Digibyte</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">DGB</p>
+                    </div><div id="item-receive-DOGE" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/doge.svg" alt="DOGE"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Dogecoin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">DOGE</p>
+                    </div><div id="item-receive-EOS" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/eos.svg" alt="EOS"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">EOS</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">EOS</p>
+                    </div><div id="item-receive-ETH" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/eth.svg" alt="ETH"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Ethereum</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">ETH</p>
+                    </div><div id="item-receive-LTC" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/ltc.svg" alt="LTC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Litecoin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">LTC</p>
+                    </div><div id="item-receive-NEO" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/neo.svg" alt="NEO"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">NEO</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">NEO</p>
+                    </div><div id="item-receive-TRX" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/trx.svg" alt="TRX"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">TRON</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">TRX</p>
+                    </div><div id="item-receive-USDC" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/usdc.svg" alt="USDC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">USD Coin</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">USDC</p>
+                    </div><div id="item-receive-XLM" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/xlm.svg" alt="XLM"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Stellar</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">XLM</p>
+                    </div><div id="item-receive-ZEC" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/zec.svg" alt="ZEC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">ZCash</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">ZEC</p>
+                    </div><div id="item-receive-XRP" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/xrp.svg" alt="XRP"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">Ripple</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">XRP</p>
+                    </div><div id="item-receive-PMC" class="section-top-exchange-row-cryptos-list-item receive ">
+                        <div>
+                            <img src="img/pmc.svg" alt="PMC"/>
+                            <p class="section-top-exchange-row-cryptos-list-item-name">PMVoucher</p>
+                        </div>
+                        <p class="section-top-exchange-row-cryptos-list-item-sign">PMC</p>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="top-menu-exchange-box-sep"></div>
+            <div id="box-value" class="top-menu-exchange-box-crypto-box">
+                <p class="top-menu-exchange-box-cryptoresult-title">You send</p>
+                <div id="value-send" class="top-menu-exchange-box-cryptoresult send">
+                    <input id="amount-send" type="text" value="0.32"/>
+                    <p id="send-currency">BTC</p>
+                </div>
+                <p class="top-menu-exchange-box-cryptoresult-title">You receive</p>
+                <div id="value-receive" class="top-menu-exchange-box-cryptoresult receive">
+                    <input id="amount-receive" type="text" value="0.1"/>
+                    <p id="receive-currency">ETH</p>
+                </div>
+            </div>
+        </div>
+        <button id="main-ex-one-submit" class="top-mneu-exhcnage-button">Next</button>
+    </div>
+</div>
+<div class="main-row">
+    <div class="main-item">
+        <div class="main-title">
+            <p>prices</p>
+            <a href="main-all-currencies.php">+ More</a>
+        </div>
+        <div class="main-prices">            <div class="main-prices-item" id="main-price-btc">
+            <img src="img/btc.svg" alt="btc"/>
+            <p>Bitcoin</p>
+            <p id="btc-price">Updating</p>
+            <p id="btc-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-bnb">
+            <img src="img/bnb.svg" alt="bnb"/>
+            <p>Binance Coin</p>
+            <p id="bnb-price">Updating</p>
+            <p id="bnb-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-dgb">
+            <img src="img/dgb.svg" alt="dgb"/>
+            <p>Digibyte</p>
+            <p id="dgb-price">Updating</p>
+            <p id="dgb-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-doge">
+            <img src="img/doge.svg" alt="doge"/>
+            <p>Dogecoin</p>
+            <p id="doge-price">Updating</p>
+            <p id="doge-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-eos">
+            <img src="img/eos.svg" alt="eos"/>
+            <p>EOS</p>
+            <p id="eos-price">Updating</p>
+            <p id="eos-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-eth">
+            <img src="img/eth.svg" alt="eth"/>
+            <p>Ethereum</p>
+            <p id="eth-price">Updating</p>
+            <p id="eth-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-ltc">
+            <img src="img/ltc.svg" alt="ltc"/>
+            <p>Litecoin</p>
+            <p id="ltc-price">Updating</p>
+            <p id="ltc-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-neo">
+            <img src="img/neo.svg" alt="neo"/>
+            <p>NEO</p>
+            <p id="neo-price">Updating</p>
+            <p id="neo-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-trx">
+            <img src="img/trx.svg" alt="trx"/>
+            <p>TRON</p>
+            <p id="trx-price">Updating</p>
+            <p id="trx-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-usdc">
+            <img src="img/usdc.svg" alt="usdc"/>
+            <p>USD Coin</p>
+            <p id="usdc-price">Updating</p>
+            <p id="usdc-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-xlm">
+            <img src="img/xlm.svg" alt="xlm"/>
+            <p>Stellar</p>
+            <p id="xlm-price">Updating</p>
+            <p id="xlm-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-zec">
+            <img src="img/zec.svg" alt="zec"/>
+            <p>ZCash</p>
+            <p id="zec-price">Updating</p>
+            <p id="zec-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-xrp">
+            <img src="img/xrp.svg" alt="xrp"/>
+            <p>Ripple</p>
+            <p id="xrp-price">Updating</p>
+            <p id="xrp-percent">-</p>
+        </div>            <div class="main-prices-item" id="main-price-pmc">
+            <img src="img/pmc.svg" alt="pmc"/>
+            <p>PMVoucher</p>
+            <p id="pmc-price">Updating</p>
+            <p id="pmc-percent">-</p>
+        </div></div>
+    </div>
+    <div class="main-item">
+        <div class="main-title">
+            <p>transactions</p>
+            <a>+ More</a>
+        </div>
+        <div class="main-transactions">
+            <div class="main-transactions-item pending">
+                <div class="main-transactions-item-image"></div>
+                <div class="main-transactions-item-detail">
+                    <div class="main-transactions-item-detail-row">
+                        <p>Send</p>
+                        <p>0.32</p>
+                        <p>BTC</p>
+                    </div>
+                    <div class="main-transactions-item-detail-row">
+                        <p>Receive</p>
+                        <p>9.22443</p>
+                        <p>ETH</p>
+                    </div>
+                </div>
+                <button class="main-transaction-item-button"></button>
+            </div>            <div class="main-transactions-item pending">
+            <div class="main-transactions-item-image"></div>
+            <div class="main-transactions-item-detail">
+                <div class="main-transactions-item-detail-row">
+                    <p>Send</p>
+                    <p>15</p>
+                    <p>DGB</p>
+                </div>
+                <div class="main-transactions-item-detail-row">
+                    <p>Receive</p>
+                    <p>0.00116</p>
+                    <p>ETH</p>
+                </div>
+            </div>
+            <button class="main-transaction-item-button"></button>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="bottom-menu">
+    <a href="info-setting.php" class="bottom-menu-item ">
+        <div class="bottom-menu-item-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 15 15">
+                <path id="_106-settings" fill="#919191"
+                      d="M7.533 15h-.065a1.487 1.487 0 0 1-1.483-1.34v-.017a1.039 1.039 0 0 0-.639-.859l-.046-.018a1.044 1.044 0 0 0-1.066.147 1.483 1.483 0 0 1-2.007-.113l-.039-.04a1.494 1.494 0 0 1-.1-1.967 1.056 1.056 0 0 0 .151-1.068l-.027-.064a1.036 1.036 0 0 0-.858-.636h-.017A1.487 1.487 0 0 1 0 7.532v-.064a1.487 1.487 0 0 1 1.34-1.483h.017a1.04 1.04 0 0 0 .86-.639l.018-.046a1.042 1.042 0 0 0-.147-1.064l-.006-.008a1.487 1.487 0 0 1 .1-1.994l.047-.047a1.487 1.487 0 0 1 1.994-.1 1.047 1.047 0 0 0 1.077.148l.045-.019a1.042 1.042 0 0 0 .641-.86v-.017A1.487 1.487 0 0 1 7.468 0h.065a1.487 1.487 0 0 1 1.483 1.34 1.07 1.07 0 0 0 .656.882l.031.013a1.087 1.087 0 0 0 1.088-.135l.026-.02a1.493 1.493 0 0 1 1.969.123l.013.013a1.493 1.493 0 0 1 .123 1.969l-.02.026a1.087 1.087 0 0 0-.137 1.089l.008.019a1.084 1.084 0 0 0 .887.668A1.487 1.487 0 0 1 15 7.468v.065a1.487 1.487 0 0 1-1.34 1.483h-.017a1.036 1.036 0 0 0-.858.636l-.024.058a1.04 1.04 0 0 0 .155 1.061 1.487 1.487 0 0 1-.1 1.994l-.047.047a1.487 1.487 0 0 1-1.995.1l-.007-.005a1.043 1.043 0 0 0-1.067-.141l-.046.019a1.04 1.04 0 0 0-.639.859v.017A1.487 1.487 0 0 1 7.533 15zm-2.648-3.49a2.235 2.235 0 0 1 .868.176l.037.015a2.21 2.21 0 0 1 1.359 1.824v.017a.318.318 0 0 0 .317.287h.065a.318.318 0 0 0 .317-.287v-.017A2.21 2.21 0 0 1 9.211 11.7l.037-.015a2.213 2.213 0 0 1 2.259.315l.007.006a.318.318 0 0 0 .427-.022l.047-.047a.318.318 0 0 0 .023-.426 2.209 2.209 0 0 1-.326-2.258l.019-.046a2.207 2.207 0 0 1 1.824-1.358h.017a.318.318 0 0 0 .286-.317v-.064a.318.318 0 0 0-.287-.317 2.254 2.254 0 0 1-1.85-1.383l-.007-.015a2.26 2.26 0 0 1 .292-2.262L12 3.464a.32.32 0 0 0-.026-.421l-.013-.013a.319.319 0 0 0-.425-.03l-.026.02a2.261 2.261 0 0 1-2.262.291L9.223 3.3A2.241 2.241 0 0 1 7.85 1.459a.318.318 0 0 0-.317-.287h-.065a.318.318 0 0 0-.317.287v.017A2.212 2.212 0 0 1 5.788 3.3l-.035.015a2.216 2.216 0 0 1-2.263-.321.318.318 0 0 0-.427.022l-.047.047a.318.318 0 0 0-.022.427L3 3.494a2.212 2.212 0 0 1 .318 2.258l-.018.036a2.21 2.21 0 0 1-1.824 1.361h-.017a.318.318 0 0 0-.286.317v.065a.318.318 0 0 0 .287.317h.017A2.207 2.207 0 0 1 3.3 9.209l.021.05a2.227 2.227 0 0 1-.311 2.254.32.32 0 0 0 .021.421l.039.04a.317.317 0 0 0 .424.026 2.2 2.2 0 0 1 1.391-.494zm3.641-.769a.586.586 0 0 0-.354-1.117 2.224 2.224 0 1 1 1.465-1.5.586.586 0 0 0 1.125.329 3.4 3.4 0 1 0-2.236 2.285zm0 0"
+                      data-name="106-settings"/>
+            </svg>
+        </div>
+        <p class="bottom-menu-item-title">Setting</p>
+    </a>
+    <a href="transactions.php" class="bottom-menu-item ">
+        <div class="bottom-menu-item-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 20 20">
+                <path id="_195-bar-chart-1" fill="#a7a7b9"
+                      d="M19.219 16.914a.781.781 0 0 0 .781-.781V1.953A1.953 1.953 0 0 0 18.051 0h-1.375a1.953 1.953 0 0 0-1.949 1.953v6.016h-1.8a1.955 1.955 0 0 0-1.953 1.953v8.516H5.391V6.6c0-.04.009-.391.313-.391h1.487a.389.389 0 0 1 .387.391v9.531a.781.781 0 0 0 1.562 0V6.6a1.953 1.953 0 0 0-1.949-1.952H5.7A1.9 1.9 0 0 0 3.828 6.6v4.727H1.953A1.955 1.955 0 0 0 0 13.281v5.937A.781.781 0 0 0 .781 20h18.438a.781.781 0 1 0 0-1.562h-2.93V1.953a.389.389 0 0 1 .387-.391h1.375a.389.389 0 0 1 .387.391v14.18a.781.781 0 0 0 .781.781zM1.563 13.281a.391.391 0 0 1 .391-.391h1.874v5.547H1.563zm10.977 5.156V9.922a.391.391 0 0 1 .391-.391h1.8v8.906zm0 0"
+                      data-name="195-bar-chart-1"/>
+            </svg>
+
+        </div>
+        <p class="bottom-menu-item-title">Transactions</p>
+    </a>
+    <a href="main.php" class="bottom-menu-item bottom-menu-item-active">
+        <div class="bottom-menu-item-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16.12 19.999">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: #4467ff
+                        }
+                    </style>
+                </defs>
+                <path id="Path_24"
+                      d="M4.309 230.5a1.277 1.277 0 0 1-.868-.334L.556 227.5a1.671 1.671 0 0 1 0-2.49l2.885-2.669a1.3 1.3 0 0 1 1.343-.245 1.141 1.141 0 0 1 .757 1.054v2.519h9.949a.587.587 0 1 1 0 1.172H5.541a1.219 1.219 0 0 1-1.259-1.172v-2.453l-2.838 2.624a.556.556 0 0 0 0 .828l2.837 2.624v-.577a.631.631 0 0 1 1.259 0v.644a1.141 1.141 0 0 1-.757 1.054 1.317 1.317 0 0 1-.475.089zm0 0"
+                      class="cls-1" data-name="Path 24" transform="translate(0 -210.502)"/>
+                <path id="Path_25"
+                      d="M11.811 8.494a1.317 1.317 0 0 1-.475-.089 1.141 1.141 0 0 1-.757-1.054v-.644a.631.631 0 0 1 1.259 0v.577l2.838-2.624a.556.556 0 0 0 0-.828l-2.838-2.624V3.66a1.219 1.219 0 0 1-1.259 1.172H.63A.609.609 0 0 1 0 4.246a.609.609 0 0 1 .63-.586h9.949V1.141a1.141 1.141 0 0 1 .757-1.054 1.3 1.3 0 0 1 1.343.245L15.563 3a1.671 1.671 0 0 1 0 2.49l-2.885 2.67a1.277 1.277 0 0 1-.868.334zm0 0"
+                      class="cls-1" data-name="Path 25" transform="translate(0 .001)"/>
+            </svg>
+        </div>
+        <p class="bottom-menu-item-title">Exchange</p>
+    </a>
+    <a href="eli5.php" class="bottom-menu-item ">
+        <div class="bottom-menu-item-image">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 20 20.013">
+                <path id="_071-lifesaver" fill="#a7a7b9" d="M19.691 6.053a10.1 10.1 0 0 0-.68-1.308l.042-.042a.781.781 0 0 0 0-1.105l-2.21-2.21a.781.781 0 0 0-1.105 0l-.058.058A9.973 9.973 0 0 0 6.551.817a10.116 10.116 0 0 0-1.259.65l-.052-.051a.781.781 0 0 0-1.105 0l-2.21 2.21a.781.781 0 0 0 0 1.105l.049.049a10.009 10.009 0 0 0-.009 10.437l-.013.013a.781.781 0 0 0 0 1.105l2.21 2.21a.781.781 0 0 0 1.105 0l.01-.01a9.967 9.967 0 0 0 9.178.659 10.127 10.127 0 0 0 1.308-.68.781.781 0 0 0 1.105 0l2.21-2.21a.781.781 0 0 0 0-1.105L15.7 11.824a5.508 5.508 0 0 0-.035-3.735l2.2-2.2a8.551 8.551 0 0 1 .386.784 8.4 8.4 0 0 1 .536 4.868.781.781 0 1 0 1.537.285 9.963 9.963 0 0 0-.637-5.77zM7.168 2.252a8.414 8.414 0 0 1 7.367.339L12.321 4.8a5.509 5.509 0 0 0-3.678.015L6.435 2.611q.357-.2.733-.358zm7.281 7.753a3.95 3.95 0 0 1-2.1 3.485.776.776 0 0 0-.211.1A3.946 3.946 0 1 1 14.446 10zM4.687 3.073l2.52 2.52A5.561 5.561 0 0 0 6.1 6.7L3.582 4.178zM2.75 13.34a8.4 8.4 0 0 1 .366-7.418l2.207 2.207a5.509 5.509 0 0 0-.006 3.735l-2.209 2.209c-.131-.238-.251-.483-.358-.733zm.86 2.442L6.091 13.3a5.552 5.552 0 0 0 1.1 1.107l-2.48 2.48zm10.228 1.976a8.408 8.408 0 0 1-7.417-.366l2.207-2.207a5.51 5.51 0 0 0 3.792-.015l2.2 2.2a8.55 8.55 0 0 1-.784.386zm3.586-2l-1.105 1.105-2.476-2.476a5.552 5.552 0 0 0 1.1-1.114zM13.766 5.57l2.524-2.524 1.11 1.105-2.519 2.514a5.556 5.556 0 0 0-1.115-1.095zm0 0" data-name="071-lifesaver" transform="translate(-.499 .001)"></path>
+            </svg>
+        </div>
+        <p class="bottom-menu-item-title">Eli5</p>
+    </a>
+
+</div><script src="js/jquery.min.js?v=1597907900"></script>
+<script src="js/main.js?v=1597907900"></script>
+</body>
+</html>

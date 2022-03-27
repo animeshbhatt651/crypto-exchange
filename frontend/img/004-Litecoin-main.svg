@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="29.35" viewBox="0 0 30 29.35">
+    <defs>
+        <style>
+            .cls-2{fill:#45a9ff}
+        </style>
+    </defs>
+    <g id="_004-Litecoin" data-name="004-Litecoin" transform="translate(.338)">
+        <ellipse id="Ellipse_5" cx="15" cy="14.5" fill="#77c0ff" data-name="Ellipse 5" rx="15" ry="14.5" transform="translate(-.338)"/>
+        <path id="Path_10" d="M62.283 28.429a14.688 14.688 0 0 1-18.929 21.233 14.686 14.686 0 1 0 18.929-21.233z" class="cls-2" data-name="Path 10" transform="translate(-40.642 -26.817)"/>
+        <circle id="Ellipse_6" cx="12.637" cy="12.637" r="12.637" fill="#f5f8f9" data-name="Ellipse 6" transform="translate(2.13 1.876)"/>
+        <path id="Path_11" fill="#c4e4ff" d="M123.172 88.547a14.521 14.521 0 0 1-16.824 18.858 12.637 12.637 0 1 0 16.824-18.858z" data-name="Path 11" transform="translate(-100.065 -83.527)"/>
+        <path id="Path_12" d="M179.686 143.68l-5.2-.007 1.024-3.755 2.367-.732a.874.874 0 1 0-.517-1.669l-1.3.4 1.511-5.539a.875.875 0 0 0-1.688-.459l-1.8 6.61-2.538.784a.874.874 0 1 0 .517 1.669l1.476-.456-1.033 3.785a.874.874 0 0 0 .843 1.1l6.338.009a.873.873 0 1 0 0-1.747z" class="cls-2" data-name="Path 12" transform="translate(-160.981 -123.837)"/>
+    </g>
+</svg>

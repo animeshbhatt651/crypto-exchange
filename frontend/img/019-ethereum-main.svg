@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_019-ethereum" width="29" height="29.025" data-name="019-ethereum" viewBox="0 0 29 29.025">
+    <defs>
+        <style>
+            .cls-2{fill:#60b7ff}
+        </style>
+    </defs>
+    <circle id="Ellipse_9" cx="14.5" cy="14.5" r="14.5" fill="#8ac9fe" data-name="Ellipse 9"/>
+    <path id="Path_16" d="M65.833 25.208a14.516 14.516 0 0 1-18.094 21.524 14.514 14.514 0 1 0 18.094-21.524z" class="cls-2" data-name="Path 16" transform="translate(-45.143 -23.779)"/>
+    <circle id="Ellipse_10" cx="12.637" cy="12.637" r="12.637" fill="#eaf6ff" data-name="Ellipse 10" transform="translate(1.765 1.876)"/>
+    <path id="Path_17" fill="#d8ecfe" d="M127.812 84.641a14.521 14.521 0 0 1-16.272 19.338 12.637 12.637 0 1 0 16.272-19.338z" data-name="Path 17" transform="translate(-105.327 -79.843)"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(10.131 6.849)">
+        <path id="Path_18" d="M184.755 120.9l-4.076 6.573a.17.17 0 0 0 .054.233l4.158 2.626a.17.17 0 0 0 .183 0l4.045-2.624a.17.17 0 0 0 .051-.233l-4.127-6.575a.17.17 0 0 0-.288 0z" class="cls-2" data-name="Path 18" transform="translate(-180.653 -120.824)"/>
+        <path id="Path_19" d="M191.418 291.323l3.573-2.222a.17.17 0 0 1 .232.238l-3.6 5.468a.17.17 0 0 1-.28.006l-3.9-5.435a.17.17 0 0 1 .227-.244l3.564 2.19a.17.17 0 0 0 .184-.001z" class="cls-2" data-name="Path 19" transform="translate(-187.031 -279.536)"/>
+    </g>
+</svg>

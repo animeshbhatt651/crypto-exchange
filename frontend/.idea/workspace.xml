@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d023812-7531-40f8-816a-adcd66fb2f53" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1foXc4HpbAHl1j4VTyKa4T1EuVC" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\exchange.cash\frontend" />
+      <recent name="C:\wamp64\www\exchange.cash\frontend\js" />
+      <recent name="C:\wamp64\www\exchange.cash\frontend\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d023812-7531-40f8-816a-adcd66fb2f53" name="Default Changelist" comment="" />
+      <created>1596885495039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596885495039</updated>
+      <workItem from="1596885500247" duration="33668000" />
+      <workItem from="1597113065715" duration="16224000" />
+      <workItem from="1597178064763" duration="14678000" />
+      <workItem from="1597259108466" duration="17655000" />
+      <workItem from="1597432162826" duration="12184000" />
+      <workItem from="1597610723445" duration="646000" />
+      <workItem from="1597642348243" duration="5894000" />
+      <workItem from="1597681844637" duration="1226000" />
+      <workItem from="1597723510947" duration="19246000" />
+      <workItem from="1597749834034" duration="1723000" />
+      <workItem from="1597770072349" duration="3859000" />
+      <workItem from="1597787581398" duration="2476000" />
+      <workItem from="1597794399670" duration="779000" />
+      <workItem from="1597869753264" duration="1548000" />
+      <workItem from="1597872830563" duration="454000" />
+      <workItem from="1597901707510" duration="2849000" />
+      <workItem from="1597907780625" duration="323000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/support.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
